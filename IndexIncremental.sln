@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexIncremental", "IndexIncremental\IndexIncremental.csproj", "{68F1A5B6-0B56-4715-A29E-0CD9CD035545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexIncremental.Cli", "IndexIncremental.Cli\IndexIncremental.Cli.csproj", "{6A445DF5-2CBA-4C0B-9187-D1009FC08BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F1A5B6-0B56-4715-A29E-0CD9CD035545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F1A5B6-0B56-4715-A29E-0CD9CD035545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F1A5B6-0B56-4715-A29E-0CD9CD035545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F1A5B6-0B56-4715-A29E-0CD9CD035545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A445DF5-2CBA-4C0B-9187-D1009FC08BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A445DF5-2CBA-4C0B-9187-D1009FC08BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A445DF5-2CBA-4C0B-9187-D1009FC08BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A445DF5-2CBA-4C0B-9187-D1009FC08BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {688873CC-27BA-4C94-9BE8-5B338EA74D6E}
+	EndGlobalSection
+EndGlobal
