@@ -53,6 +53,12 @@ public static partial class Program
         VisitDirectory(dir2);
         Console.WriteLine($"Found {fileCount} files and {dirCount} directories");
 
+        Console.WriteLine("Calculating diff...");
+        FileSystemItemDifference difference = FileSystemItemDifference.Create(dir1, dir2);
+
+        Console.WriteLine($"{difference.Added.Count} items added");
+        Console.WriteLine($"{difference.Removed.Count} items removed");
+
         Console.ReadKey();
     }
 
