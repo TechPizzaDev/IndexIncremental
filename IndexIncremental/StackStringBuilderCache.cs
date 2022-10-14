@@ -36,9 +36,6 @@ public static class StackStringBuilderCache
 
     public static string ToStringAndClear(StackStringBuilder builder)
     {
-        string str = builder.Builder.ToString();
-        builder.Stack.Clear();
-        builder.Builder.Clear();
-        return str;
+        return builder.ToStringAndClear();
     }
 }

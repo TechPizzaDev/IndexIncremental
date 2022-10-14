@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace IndexIncremental;
@@ -17,5 +16,13 @@ public class StackStringBuilder
 
     public StackStringBuilder() : this(new Stack<string>(), new StringBuilder())
     {
+    }
+
+    public string ToStringAndClear()
+    {
+        string str = Builder.ToString();
+        Builder.Clear();
+        Stack.Clear();
+        return str;
     }
 }
